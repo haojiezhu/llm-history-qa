@@ -2,7 +2,7 @@
 
 **history_qa_csv.csv**: Exported CSV file for model inferencing. It uses "|" (pipe symbol) as column separator
 
-**Ollama Setup.txt**: How to setup Ollama on Mill cluster
+**Ollama Setup.txt**: How to setup Ollama service on Mill cluster. This step is **required** for LLM inferencing.
 
 **history_qa_llm_inferencing.py**: Python inferencing code for history MCQ answering
 
