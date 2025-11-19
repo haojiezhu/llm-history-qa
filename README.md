@@ -6,4 +6,4 @@
 
 "history_qa_llm_inferencing.py": Python inferencing code for history MCQ answering
 
-How to export Excel sheet to CSV with custom deliminator (such as "|"): [https://stackoverflow.com/questions/47142144/export-excel-data-with-a-custom-deliminator-in-csv](https://stackoverflow.com/a/47155279)
+How to export Excel sheet to CSV with custom deliminator (such as "|"): https://stackoverflow.com/a/47155279
