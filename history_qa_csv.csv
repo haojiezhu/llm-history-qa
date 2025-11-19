@@ -1,0 +1,186 @@
+Template_ID|Template|Question_ID|Placeholders|Num_Answers|Answer|All_Answers|p1|p2|p3|p4|p5|p6|p7|p8|Reference
+1|[p1] and [p2] met at a restaurant over tea and discussed [p3]. Verify the claim.|1|3|2|FALSE|TRUE; FALSE|J. Robert Oppenheimer|Marie Curie|nuclear fusion theory||||||
+1|[p1] and [p2] met at a restaurant over tea and discussed [p3]. Verify the claim.|2|3|2|TRUE|TRUE; FALSE|Albert Einstein|Niels Bohr|the implications of quantum mechanics||||||
+1|[p1] and [p2] met at a restaurant over tea and discussed [p3]. Verify the claim.|3|3|2|TRUE|TRUE; FALSE|Cleopatra VII|Julius Caesar|the governance of Egypt under Roman influence||||||
+1|[p1] and [p2] met at a restaurant over tea and discussed [p3]. Verify the claim.|4|3|2|FALSE|TRUE; FALSE|Leonardo da Vinci|Isaac Newton|the laws of motion||||||
+1|[p1] and [p2] met at a restaurant over tea and discussed [p3]. Verify the claim.|5|3|2|FALSE|TRUE; FALSE|George Washington|Abraham Lincoln|the preservation of the Union||||||
+1|[p1] and [p2] met at a restaurant over tea and discussed [p3]. Verify the claim.|6|3|2|FALSE|TRUE; FALSE|Karl Marx|Charles Darwin|the theory of evolution and social change||||||
+1|[p1] and [p2] met at a restaurant over tea and discussed [p3]. Verify the claim.|7|3|2|TRUE|TRUE; FALSE|Winston Churchill|Franklin D. Roosevelt|strategies for defeating Nazi Germany||||||
+1|[p1] and [p2] met at a restaurant over tea and discussed [p3]. Verify the claim.|8|3|2|FALSE|TRUE; FALSE|Marie Curie|Rosalind Franklin|X-ray diffraction and molecular structure||||||
+1|[p1] and [p2] met at a restaurant over tea and discussed [p3]. Verify the claim.|9|3|2|FALSE|TRUE; FALSE|Mahatma Gandhi|Martin Luther King Jr.|nonviolent resistance||||||
+1|[p1] and [p2] met at a restaurant over tea and discussed [p3]. Verify the claim.|10|3|2|TRUE|TRUE; FALSE|Napoleon Bonaparte|Tsar Alexander I|a treaty between France and Russia||||||
+1|[p1] and [p2] met at a restaurant over tea and discussed [p3]. Verify the claim.|11|3|2|FALSE|TRUE; FALSE|Neil Armstrong|Yuri Gagarin|the future of human space exploration||||||
+1|[p1] and [p2] met at a restaurant over tea and discussed [p3]. Verify the claim.|12|3|2|TRUE|TRUE; FALSE|Sigmund Freud|Carl Jung|dreams||||||
+1|[p1] and [p2] met at a restaurant over tea and discussed [p3]. Verify the claim.|13|3|2|FALSE|TRUE; FALSE|Johann Sebastian Bach|Wolfgang Amadeus Mozart|composition||||||
+1|[p1] and [p2] met at a restaurant over tea and discussed [p3]. Verify the claim.|14|3|2|TRUE|TRUE; FALSE|Nelson Mandela|Fidel Castro|politics and liberation movements||||||
+1|[p1] and [p2] met at a restaurant over tea and discussed [p3]. Verify the claim.|15|3|2|FALSE|TRUE; FALSE|Ada Lovelace|Alan Turing|computer algorithms||||||
+3|In year [p1], [p2] occurred. What happened next?|16|2|4|A|Spain began colonizing the Caribbean; The British founded Jamestown; France attacked Spain; The Vikings returned to Iceland|1492|Christopher Columbus landed in the Americas|||||||
+3|In year [p1], [p2] occurred. What happened next?|17|2|4|C|The Spanish Inquisition ended; Napoleon invaded Germany; The Protestant Reformation began; The Renaissance began|1517|Martin Luther published his 95 Theses|||||||
+3|In year [p1], [p2] occurred. What happened next?|18|2|4|B|France attacked Spain; England’s naval dominance expanded; Spain conquered England; The Vikings invaded again|1588|The Spanish Armada attempted to invade England|||||||
+3|In year [p1], [p2] occurred. What happened next?|19|2|4|D|The U.S. joined the UN; The French Revolution started; The Civil War began; The Revolutionary War intensified|1776|The American Declaration of Independence was signed|||||||
+3|In year [p1], [p2] occurred. What happened next?|20|2|4|D|France colonized India; Napoleon crowned himself emperor; The Industrial Revolution began; King Louis XVI was executed|1789|The French Revolution began in Paris|||||||
+3|In year [p1], [p2] occurred. What happened next?|21|2|4|A|He was exiled to Saint Helena; The Congress of Vienna dissolved; He became King of France; The U.S. declared war on Britain|1815|Napoleon was defeated at Waterloo|||||||
+3|In year [p1], [p2] occurred. What happened next?|22|2|4|B|Lincoln resigned; The Emancipation Proclamation was issued; The Great Depression occurred; The U.S. entered World War I|1861|The U.S. Civil War began|||||||
+3|In year [p1], [p2] occurred. What happened next?|23|2|4|B|The League of Nations was founded; The assassination of Archduke Franz Ferdinand sparked alliances into war; Germany surrendered immediately; World War II started|1914|World War I began|||||||
+3|In year [p1], [p2] occurred. What happened next?|24|2|4|A|The Bolsheviks took power under Lenin; The Cold War began; Stalin was exiled; Russia joined NATO|1917|The Russian Revolution overthrew the Tsar|||||||
+3|In year [p1], [p2] occurred. What happened next?|25|2|4|B|The Roaring Twenties began; The Great Depression spread globally; World War II ended; The U.S. entered World War I|1929|The Wall Street Crash occurred|||||||
+3|In year [p1], [p2] occurred. What happened next?|26|2|4|B|The Berlin Wall was built; Britain and France declared war on Germany; The U.S. dropped the atomic bomb; Hitler was overthrown|1939|Germany invaded Poland|||||||
+3|In year [p1], [p2] occurred. What happened next?|27|2|4|B|Germany colonized Africa; The United Nations was established; The Cold War ended; The Vietnam War started|1945|World War II ended|||||||
+3|In year [p1], [p2] occurred. What happened next?|28|2|4|C|Sputnik was launched; The Cold War ended; The Apollo missions continued; The Berlin Wall fell|1969|Neil Armstrong landed on the Moon|||||||
+3|In year [p1], [p2] occurred. What happened next?|29|2|4|C|NATO dissolved; The Soviet Union invaded Poland; Germany was reunified; World War III began|1989|The Berlin Wall fell|||||||
+3|In year [p1], [p2] occurred. What happened next?|30|2|4|B|The Cold War resumed; The U.S. launched the War on Terror; The EU collapsed; The UN disbanded|2001|The September 11 attacks occurred in the United States|||||||
+15|[p1] directly led to [p2]. Verify the claim.|31|2|2|TRUE|TRUE; FALSE|The assassination of Archduke Franz Ferdinand|The beginning of World War I|||||||
+15|[p1] directly led to [p2]. Verify the claim.|32|2|2|TRUE|TRUE; FALSE|The invention of the steam engine|The Industrial Revolution|||||||
+15|[p1] directly led to [p2]. Verify the claim.|33|2|2|TRUE|TRUE; FALSE|The stock market crash of 1929|The start of the Great Depression|||||||
+15|[p1] directly led to [p2]. Verify the claim.|34|2|2|FALSE|TRUE; FALSE|The discovery of penicillin|The abolition of slavery in the United States|||||||
+15|[p1] directly led to [p2]. Verify the claim.|35|2|2|TRUE|TRUE; FALSE|The attack on Pearl Harbor|The United States entering World War II|||||||
+15|[p1] directly led to [p2]. Verify the claim.|36|2|2|TRUE|TRUE; FALSE|The Black Death in Europe|Major social and economic changes in the 14th century|||||||
+15|[p1] directly led to [p2]. Verify the claim.|37|2|2|FALSE|TRUE; FALSE|The Suez Crisis of 1956|The fall of the Berlin Wall|||||||
+15|[p1] directly led to [p2]. Verify the claim.|38|2|2|TRUE|TRUE; FALSE|The French Revolution|The rise of Napoleon Bonaparte|||||||
+15|[p1] directly led to [p2]. Verify the claim.|39|2|2|FALSE|TRUE; FALSE|The completion of the transcontinental railroad in the US|The discovery of electricity|||||||
+15|[p1] directly led to [p2]. Verify the claim.|40|2|2|TRUE|TRUE; FALSE|The Treaty of Versailles|The outbreak of World War II|||||||
+15|[p1] directly led to [p2]. Verify the claim.|41|2|2|FALSE|TRUE; FALSE|The Mongol invasions|The formation of the United Nations|||||||
+15|[p1] directly led to [p2]. Verify the claim.|42|2|2|TRUE|TRUE; FALSE|The Protestant Reformation|The Catholic Counter-Reformation|||||||
+15|[p1] directly led to [p2]. Verify the claim.|43|2|2|TRUE|TRUE; FALSE|The Boston Tea Party|The American Revolutionary War|||||||
+15|[p1] directly led to [p2]. Verify the claim.|44|2|2|FALSE|TRUE; FALSE|The eruption of Mount Vesuvius|The fall of the Roman Empire|||||||
+15|[p1] directly led to [p2]. Verify the claim.|45|2|2|FALSE|TRUE; FALSE|The founding of Jamestown|The adoption of the U.S. Constitution|||||||
+15|[p1] directly led to [p2]. Verify the claim.|46|2|2|TRUE|TRUE; FALSE|The invention of the printing press|Increased literacy in Europe|||||||
+15|[p1] directly led to [p2]. Verify the claim.|47|2|2|TRUE|TRUE; FALSE|The dissolution of the Soviet Union|The independence of Ukraine|||||||
+15|[p1] directly led to [p2]. Verify the claim.|48|2|2|FALSE|TRUE; FALSE|The Louisiana Purchase|The Civil War in the United States|||||||
+15|[p1] directly led to [p2]. Verify the claim.|49|2|2|TRUE|TRUE; FALSE|The fall of Constantinople|The Age of Exploration|||||||
+15|[p1] directly led to [p2]. Verify the claim.|50|2|2|FALSE|TRUE; FALSE|The Hundred Years' War|The Renaissance|||||||
+15|[p1] directly led to [p2]. Verify the claim.|51|2|2|TRUE|TRUE; FALSE|The Glorious Revolution|A constitutional monarchy in England|||||||
+15|[p1] directly led to [p2]. Verify the claim.|52|2|2|TRUE|TRUE; FALSE|The Opium Wars|The Treaty of Nanking|||||||
+15|[p1] directly led to [p2]. Verify the claim.|53|2|2|TRUE|TRUE; FALSE|The discovery of gold in California|The California Gold Rush|||||||
+15|[p1] directly led to [p2]. Verify the claim.|54|2|2|FALSE|TRUE; FALSE|The invention of the telegraph|The invention of radio communication|||||||
+15|[p1] directly led to [p2]. Verify the claim.|55|2|2|TRUE|TRUE; FALSE|The Meiji Restoration|The industrialization of Japan|||||||
+17|Were [p1] and [p2] happening at the same time?|56|2|2|FALSE|TRUE; FALSE|American Revolutionary War|French Revolution|||||||
+17|Were [p1] and [p2] happening at the same time?|57|2|2|TRUE|TRUE; FALSE|Reign of Queen Victoria|American Civil War|||||||
+17|Were [p1] and [p2] happening at the same time?|58|2|2|FALSE|TRUE; FALSE|Fall of Constantinople|Discovery of America by Columbus|||||||
+17|Were [p1] and [p2] happening at the same time?|59|2|2|TRUE|TRUE; FALSE|World War I|Russian Revolution|||||||
+17|Were [p1] and [p2] happening at the same time?|60|2|2|TRUE|TRUE; FALSE|Construction of the Great Wall of China|Life of Confucius|||||||
+17|Were [p1] and [p2] happening at the same time?|61|2|2|TRUE|TRUE; FALSE|Reign of Louis XIV of France|English Civil War|||||||
+17|Were [p1] and [p2] happening at the same time?|62|2|2|TRUE|TRUE; FALSE|Napoleonic Wars|War of 1812|||||||
+17|Were [p1] and [p2] happening at the same time?|63|2|2|FALSE|TRUE; FALSE|Signing of the Magna Carta|First Crusade|||||||
+17|Were [p1] and [p2] happening at the same time?|64|2|2|TRUE|TRUE; FALSE|American Civil Rights Movement|Vietnam War|||||||
+17|Were [p1] and [p2] happening at the same time?|65|2|2|FALSE|TRUE; FALSE|Fall of the Berlin Wall|Dissolution of the Soviet Union|||||||
+17|Were [p1] and [p2] happening at the same time?|66|2|2|TRUE|TRUE; FALSE|Invention of the printing press by Gutenberg|Fall of Constantinople|||||||
+17|Were [p1] and [p2] happening at the same time?|67|2|2|TRUE|TRUE; FALSE|Reign of Elizabeth I of England|Spanish Armada attempted invasion of England|||||||
+17|Were [p1] and [p2] happening at the same time?|68|2|2|TRUE|TRUE; FALSE|Life of Leonardo da Vinci|Life of Michelangelo|||||||
+17|Were [p1] and [p2] happening at the same time?|69|2|2|TRUE|TRUE; FALSE|World War II|Great Depression|||||||
+17|Were [p1] and [p2] happening at the same time?|70|2|2|FALSE|TRUE; FALSE|Discovery of penicillin by Alexander Fleming|Wright brothers' first flight|||||||
+20|[p1] is credited with [p2]. Is this accurate?|71|2|2|TRUE|TRUE; FALSE|Albert Einstein|Theory of relativity|||||||
+20|[p1] is credited with [p2]. Is this accurate?|72|2|2|FALSE|TRUE; FALSE|Isaac Newton|Theory of evolution|||||||
+20|[p1] is credited with [p2]. Is this accurate?|73|2|2|TRUE|TRUE; FALSE|Marie Curie|Discovery of radium and polonium|||||||
+20|[p1] is credited with [p2]. Is this accurate?|74|2|2|FALSE|TRUE; FALSE|Nikola Tesla|Invention of the telephone|||||||
+20|[p1] is credited with [p2]. Is this accurate?|75|2|2|TRUE|TRUE; FALSE|Alexander Graham Bell|Invention of the telephone|||||||
+20|[p1] is credited with [p2]. Is this accurate?|76|2|2|FALSE|TRUE; FALSE|Thomas Edison|Invention of the first airplane|||||||
+20|[p1] is credited with [p2]. Is this accurate?|77|2|2|TRUE|TRUE; FALSE|Wright brothers|First powered flight|||||||
+20|[p1] is credited with [p2]. Is this accurate?|78|2|2|TRUE|TRUE; FALSE|Galileo Galilei|Improvements to the telescope and heliocentric support|||||||
+20|[p1] is credited with [p2]. Is this accurate?|79|2|2|FALSE|TRUE; FALSE|Christopher Columbus|Discovery of Australia|||||||
+20|[p1] is credited with [p2]. Is this accurate?|80|2|2|TRUE|TRUE; FALSE|Christopher Columbus|Voyage to the Americas in 1492|||||||
+20|[p1] is credited with [p2]. Is this accurate?|81|2|2|TRUE|TRUE; FALSE|Leonardo da Vinci|Painted the Mona Lisa|||||||
+20|[p1] is credited with [p2]. Is this accurate?|82|2|2|FALSE|TRUE; FALSE|Michelangelo|Composed the Four Seasons|||||||
+20|[p1] is credited with [p2]. Is this accurate?|83|2|2|TRUE|TRUE; FALSE|Martin Luther King Jr.|Led the American civil rights movement|||||||
+20|[p1] is credited with [p2]. Is this accurate?|84|2|2|FALSE|TRUE; FALSE|Napoleon Bonaparte|Signed the Declaration of Independence|||||||
+20|[p1] is credited with [p2]. Is this accurate?|85|2|2|TRUE|TRUE; FALSE|Mahatma Gandhi|Led the nonviolent movement for Indian independence|||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|86|3|2|TRUE|TRUE; FALSE|Leonardo da Vinci|Michelangelo|were Renaissance artists who competed for commissions||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|87|3|2|TRUE|TRUE; FALSE|Isaac Newton|Gottfried Wilhelm Leibniz|were mathematicians involved in the calculus controversy||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|88|3|2|TRUE|TRUE; FALSE|Albert Einstein|Marie Curie|were scientists awarded Nobel Prizes in the early 20th century||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|89|3|2|TRUE|TRUE; FALSE|Mahatma Gandhi|Winston Churchill|were leaders during British colonial rule in India||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|90|3|2|TRUE|TRUE; FALSE|Abraham Lincoln|Charles Darwin|were leaders in their fields in the mid-19th century||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|91|3|2|TRUE|TRUE; FALSE|Nikola Tesla|Thomas Edison|were inventors who worked on electricity and had public disputes||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|92|3|2|TRUE|TRUE; FALSE|Queen Victoria|Florence Nightingale|were influential British figures in the 19th century||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|93|3|2|TRUE|TRUE; FALSE|Martin Luther King Jr.|Malcolm X|were leaders in the American Civil Rights Movement||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|94|3|2|TRUE|TRUE; FALSE|Pablo Picasso|Henri Matisse|were key figures in modern art in early 20th-century France||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|95|3|2|TRUE|TRUE; FALSE|Sigmund Freud|Carl Jung|were psychologists who corresponded and influenced psychoanalysis||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|96|3|2|TRUE|TRUE; FALSE|Frida Kahlo|Diego Rivera|were Mexican artists who collaborated and were married||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|97|3|2|TRUE|TRUE; FALSE|Napoleon Bonaparte|Ludwig van Beethoven|were famous contemporaries during late 18th/early 19th century Europe||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|98|3|2|TRUE|TRUE; FALSE|Julius Caesar|Cleopatra|were contemporaries with a political and romantic relationship||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|99|3|2|TRUE|TRUE; FALSE|Franklin D. Roosevelt|Adolf Hitler|were political leaders during World War II||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|100|3|2|TRUE|TRUE; FALSE|John F. Kennedy|Nikita Khrushchev|were leaders during the Cuban Missile Crisis||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|101|3|2|TRUE|TRUE; FALSE|Queen Elizabeth I|William Shakespeare|were alive during the Elizabethan Era||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|102|3|2|TRUE|TRUE; FALSE|Marie Antoinette|Louis XVI|were French royal contemporaries and married||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|103|3|2|TRUE|TRUE; FALSE|Mark Twain|Thomas Edison|were American innovators who met in person||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|104|3|2|TRUE|TRUE; FALSE|Galileo Galilei|Johannes Kepler|were astronomers in early 17th-century Europe||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|105|3|2|FALSE|TRUE; FALSE|Abraham Lincoln|Mahatma Gandhi|were contemporaries fighting for justice at the same time||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|106|3|2|FALSE|TRUE; FALSE|Socrates|Aristotle|were contemporaries in Ancient Greece||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|107|3|2|FALSE|TRUE; FALSE|Alexander Hamilton|Napoleon Bonaparte|corresponded directly during the French Revolution era||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|108|3|2|FALSE|TRUE; FALSE|Albert Einstein|Isaac Newton|worked together in developing physics theories||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|109|3|2|FALSE|TRUE; FALSE|Gandhi|Martin Luther King Jr.|led parallel movements during overlapping lifetimes||||||
+21|[p1] and [p2] were contemporaries who [p3]. Verify the claim.|110|3|2|FALSE|TRUE; FALSE|Nikola Tesla|Steve Jobs|were contemporaries in technology||||||
+22|How does [p1] and their contributions differ from [p2] and their contributions in [p3]?|111|3|4|A|Spain began colonizing the Caribbean; The British founded Jamestown; France attacked Spain; The Vikings returned to Iceland|Christopher Columbus|John Smith|Exploration & Colonization||||||
+22|How does [p1] and their contributions differ from [p2] and their contributions in [p3]?|112|3|4|B|Newton formulated the laws of motion; Einstein developed the theory of relativity; Curie discovered radioactivity; Galileo mapped the stars|Isaac Newton|Albert Einstein|Physics||||||
+22|How does [p1] and their contributions differ from [p2] and their contributions in [p3]?|113|3|4|C|Martin Luther led the Protestant Reformation; Calvin emphasized predestination; Henry VIII created the Anglican Church; Pope Leo X reaffirmed indulgences|Martin Luther|John Calvin|Religion & Reformation||||||
+22|How does [p1] and their contributions differ from [p2] and their contributions in [p3]?|114|3|4|D|Caesar expanded the Roman Republic; Augustus became the first emperor; Nero built the Colosseum; Constantine converted to Christianity|Julius Caesar|Augustus|Ancient Rome & Politics||||||
+22|How does [p1] and their contributions differ from [p2] and their contributions in [p3]?|115|3|4|A|Jefferson wrote the Declaration of Independence; Madison drafted the Bill of Rights; Lincoln issued the Emancipation Proclamation; Washington led the Continental Army|Thomas Jefferson|James Madison|American Founding||||||
+22|How does [p1] and their contributions differ from [p2] and their contributions in [p3]?|116|3|4|B|Napoleon crowned himself emperor; Robespierre led the Reign of Terror; Louis XVI fled to Austria; Voltaire criticized the Church|Napoleon Bonaparte|Maximilien Robespierre|French Revolution||||||
+22|How does [p1] and their contributions differ from [p2] and their contributions in [p3]?|117|3|4|C|Da Vinci painted The Last Supper; Michelangelo sculpted David; Raphael designed the Vatican Rooms; Brunelleschi built the Duomo|Leonardo da Vinci|Michelangelo|Renaissance Art||||||
+22|How does [p1] and their contributions differ from [p2] and their contributions in [p3]?|118|3|4|D|Mandela ended apartheid; Gandhi led Indian independence; King fought segregation in the U.S.; Tutu wrote about reconciliation|Nelson Mandela|Mahatma Gandhi|Civil Rights & Nonviolence||||||
+22|How does [p1] and their contributions differ from [p2] and their contributions in [p3]?|119|3|4|A|Marx wrote The Communist Manifesto; Smith wrote The Wealth of Nations; Keynes created macroeconomics; Ricardo developed comparative advantage|Karl Marx|Adam Smith|Economic Theory||||||
+22|How does [p1] and their contributions differ from [p2] and their contributions in [p3]?|120|3|4|B|Elizabeth I supported exploration; Catherine the Great modernized Russia; Maria Theresa strengthened Austria; Victoria ruled the British Empire|Elizabeth I|Catherine the Great|Female Monarchs||||||
+22|How does [p1] and their contributions differ from [p2] and their contributions in [p3]?|121|3|4|C|Edison invented the light bulb; Tesla advanced alternating current; Bell invented the telephone; Watt improved the steam engine|Thomas Edison|Nikola Tesla|Invention & Technology||||||
+22|How does [p1] and their contributions differ from [p2] and their contributions in [p3]?|122|3|4|D|Lincoln preserved the Union; Grant led Union armies; Lee led Confederate armies; Sherman marched to the sea|Abraham Lincoln|Ulysses S. Grant|U.S. Civil War||||||
+22|How does [p1] and their contributions differ from [p2] and their contributions in [p3]?|123|3|4|A|Socrates taught through questioning; Plato founded the Academy; Aristotle tutored Alexander; Epicurus promoted pleasure|Socrates|Plato|Philosophy||||||
+22|How does [p1] and their contributions differ from [p2] and their contributions in [p3]?|124|3|4|B|Magellan circumnavigated the globe; Cook mapped the Pacific; Pizarro conquered the Inca; Cortez conquered the Aztec|Ferdinand Magellan|James Cook|Exploration||||||
+22|How does [p1] and their contributions differ from [p2] and their contributions in [p3]?|125|3|4|C|Churchill led Britain in WWII; Roosevelt implemented the New Deal; Stalin industrialized the USSR; Hitler invaded Poland|Winston Churchill|Franklin D. Roosevelt|World War II Leadership||||||
+23|Who was the [p1] of [p2] in [p3]?|126|3|4|A|Elizabeth I; Mary I; Victoria; Anne|Elizabeth I|England|1588||||||
+23|Who was the [p1] of [p2] in [p3]?|127|3|4|B|Louis XIV; Napoleon I; Louis XVI; Charles X|Louis XIV|France|1700||||||
+23|Who was the [p1] of [p2] in [p3]?|128|3|4|C|Peter the Great; Ivan the Terrible; Catherine the Great; Nicholas II|Peter the Great|Russia|1703||||||
+23|Who was the [p1] of [p2] in [p3]?|129|3|4|D|Akbar; Shah Jahan; Aurangzeb; Babur|Akbar|Mughal Empire (India)|1600||||||
+23|Who was the [p1] of [p2] in [p3]?|130|3|4|A|Augustus; Julius Caesar; Nero; Marcus Aurelius|Augustus|Rome|27 BCE||||||
+23|Who was the [p1] of [p2] in [p3]?|131|3|4|B|Charlemagne; Otto I; Charles V; Henry IV|Charlemagne|Holy Roman Empire|800||||||
+23|Who was the [p1] of [p2] in [p3]?|132|3|4|C|Frederick the Great; Wilhelm I; Bismarck; Hitler|Frederick the Great|Prussia|1750||||||
+23|Who was the [p1] of [p2] in [p3]?|133|3|4|D|Tokugawa Ieyasu; Oda Nobunaga; Toyotomi Hideyoshi; Emperor Meiji|Tokugawa Ieyasu|Japan|1603||||||
+23|Who was the [p1] of [p2] in [p3]?|134|3|4|A|George III; George II; George IV; Edward VII|George III|Great Britain|1776||||||
+23|Who was the [p1] of [p2] in [p3]?|135|3|4|B|Philip II; Charles V; Ferdinand II; Isabella I|Philip II|Spain|1580||||||
+23|Who was the [p1] of [p2] in [p3]?|136|3|4|C|Qin Shi Huang; Kublai Khan; Han Gaozu; Sun Yat-sen|Qin Shi Huang|China|221 BCE||||||
+23|Who was the [p1] of [p2] in [p3]?|137|3|4|D|Haile Selassie; Menelik II; Selassie I; Zara Yaqob|Haile Selassie|Ethiopia|1936||||||
+23|Who was the [p1] of [p2] in [p3]?|138|3|4|A|Catherine II; Elizabeth I; Anne Boleyn; Maria Theresa|Catherine II (the Great)|Russia|1770||||||
+23|Who was the [p1] of [p2] in [p3]?|139|3|4|B|Henry VIII; Edward VI; James I; Charles II|Henry VIII|England|1534||||||
+23|Who was the [p1] of [p2] in [p3]?|140|3|4|C|Ramses II; Tutankhamun; Cleopatra VII; Akhenaten|Ramses II|Egypt|1250 BCE||||||
+34|How did the introduction of [p1] over [p2] impact [p3]?|141|3|4|A|It increased literacy; It caused famine; It weakened monarchies; It reduced trade|Printing Press|15th century|Education||||||
+34|How did the introduction of [p1] over [p2] impact [p3]?|142|3|4|B|It improved transportation; It reduced city growth; It increased disease; It ended trade|Steam Engine|18th century|Industry||||||
+34|How did the introduction of [p1] over [p2] impact [p3]?|143|3|4|C|It connected nations globally; It isolated countries; It reduced communication speed; It ended trade routes|Telegraph|19th century|Communication||||||
+34|How did the introduction of [p1] over [p2] impact [p3]?|144|3|4|D|It expanded global communication; It limited mobility; It decreased literacy; It ended industrialization|Internet|Late 20th century|Globalization||||||
+34|How did the introduction of [p1] over [p2] impact [p3]?|145|3|4|A|It revolutionized agriculture; It caused unemployment; It decreased food supply; It ended trade|Mechanized Farming|19th century|Food Production||||||
+34|How did the introduction of [p1] over [p2] impact [p3]?|146|3|4|B|It changed warfare; It improved peace treaties; It ended all conflict; It created democracy|Gunpowder|14th century|Warfare||||||
+34|How did the introduction of [p1] over [p2] impact [p3]?|147|3|4|C|It increased travel speed; It led to urban expansion; It reduced exploration; It ended trade|Railroads|19th century|Transportation||||||
+34|How did the introduction of [p1] over [p2] impact [p3]?|148|3|4|D|It expanded urban populations; It reduced jobs; It decreased trade; It ended literacy|Electricity|19th century|Urban Life||||||
+34|How did the introduction of [p1] over [p2] impact [p3]?|149|3|4|A|It improved healthcare; It increased mortality; It eliminated hygiene; It ended hospitals|Vaccination|18th century|Public Health||||||
+34|How did the introduction of [p1] over [p2] impact [p3]?|150|3|4|B|It transformed commerce; It reduced trade; It ended economic growth; It limited production|Industrialization|18th–19th century|Economy||||||
+34|How did the introduction of [p1] over [p2] impact [p3]?|151|3|4|C|It accelerated exploration; It caused famine; It decreased literacy; It ended colonization|Compass|15th century|Navigation||||||
+34|How did the introduction of [p1] over [p2] impact [p3]?|152|3|4|D|It reshaped art and thought; It reduced creativity; It ended learning; It isolated Europe|Printing of books|Renaissance|Culture||||||
+34|How did the introduction of [p1] over [p2] impact [p3]?|153|3|4|A|It democratized information; It centralized power; It reduced communication; It isolated communities|Radio Broadcasting|Early 20th century|Information||||||
+34|How did the introduction of [p1] over [p2] impact [p3]?|154|3|4|B|It revolutionized warfare; It improved diplomacy; It ended conflicts; It limited technology|Atomic Energy|20th century|Warfare||||||
+34|How did the introduction of [p1] over [p2] impact [p3]?|155|3|4|C|It improved medical diagnosis; It caused more illness; It ended treatment; It limited science|X-ray Technology|19th century|Medicine||||||
+35|What were the short-term effects of [p1] on [p2]?|156|2|4|A|Increased independence; Reduced trade; Improved monarchy; Ended democracy|American Revolution|United States|||||||
+35|What were the short-term effects of [p1] on [p2]?|157|2|4|B|Economic collapse; Political unity; Industrial boom; Religious revival|French Revolution|France|||||||
+35|What were the short-term effects of [p1] on [p2]?|158|2|4|C|Population loss; Improved economy; Cultural expansion; Increased literacy|Black Death|Europe|||||||
+35|What were the short-term effects of [p1] on [p2]?|159|2|4|D|Decreased power; Economic boom; Territorial expansion; Cultural prosperity|Fall of the Roman Empire|Western Europe|||||||
+35|What were the short-term effects of [p1] on [p2]?|160|2|4|A|Rapid industrialization; Economic depression; Political stability; Religious tolerance|Meiji Restoration|Japan|||||||
+35|What were the short-term effects of [p1] on [p2]?|161|2|4|B|Mass unemployment; Increased exports; Social equality; Political stability|Great Depression|United States|||||||
+35|What were the short-term effects of [p1] on [p2]?|162|2|4|C|Increased nationalism; Religious unity; Isolationism; Colonial peace|World War I|Germany|||||||
+35|What were the short-term effects of [p1] on [p2]?|163|2|4|D|Territorial division; Global peace; Economic equality; Religious expansion|Cold War|Europe|||||||
+35|What were the short-term effects of [p1] on [p2]?|164|2|4|A|Civil unrest; Economic boom; Social peace; Cultural unity|Russian Revolution|Russia|||||||
+35|What were the short-term effects of [p1] on [p2]?|165|2|4|B|Rapid independence; Loss of democracy; Colonial expansion; Peace treaties|Decolonization of Africa|African Nations|||||||
+35|What were the short-term effects of [p1] on [p2]?|166|2|4|C|Mass migration; Religious freedom; Technological growth; Cultural decline|Irish Potato Famine|Ireland|||||||
+35|What were the short-term effects of [p1] on [p2]?|167|2|4|D|Political instability; Economic prosperity; Social equality; Religious unity|Fall of the Berlin Wall|Eastern Europe|||||||
+35|What were the short-term effects of [p1] on [p2]?|168|2|4|A|Displacement of Indigenous peoples; Cultural exchange; Religious harmony; Economic balance|European Colonization|Native Americans|||||||
+35|What were the short-term effects of [p1] on [p2]?|169|2|4|B|Trade disruption; Economic growth; Population increase; Religious reform|Napoleonic Wars|Europe|||||||
+35|What were the short-term effects of [p1] on [p2]?|170|2|4|C|Social unrest; Industrial reform; Religious revival; Economic balance|Industrial Revolution|Britain|||||||
+36|What were the long-term effects of [p1] on [p2]?|171|2|4|A|Democratic government; Loss of sovereignty; Cultural collapse; Economic decline|American Revolution|United States|||||||
+36|What were the long-term effects of [p1] on [p2]?|172|2|4|B|Rise of nationalism; Return to monarchy; Feudal restoration; Religious dominance|French Revolution|Europe|||||||
+36|What were the long-term effects of [p1] on [p2]?|173|2|4|C|Labor reforms; Religious revival; Technological regression; Economic collapse|Industrial Revolution|Western Europe|||||||
+36|What were the long-term effects of [p1] on [p2]?|174|2|4|D|Communist state formation; Feudal order; Religious monarchy; Colonial return|Russian Revolution|Soviet Union|||||||
+36|What were the long-term effects of [p1] on [p2]?|175|2|4|A|End of colonialism; Rise of monarchy; Expansion of slavery; Decline of literacy|World War II|Global Community|||||||
+36|What were the long-term effects of [p1] on [p2]?|176|2|4|B|Economic liberalization; Isolationism; Feudalism; Imperialism|Cold War|Eastern Europe|||||||
+36|What were the long-term effects of [p1] on [p2]?|177|2|4|C|Loss of cultural identity; Political independence; Increased monarchy; Return to empires|Colonization of Africa|African Nations|||||||
+36|What were the long-term effects of [p1] on [p2]?|178|2|4|D|Democratic expansion; Religious control; Feudal dominance; Cultural stagnation|Civil Rights Movement|United States|||||||
+36|What were the long-term effects of [p1] on [p2]?|179|2|4|A|Industrial modernization; Feudal economy; Religious dominance; Cultural isolation|Meiji Restoration|Japan|||||||
+36|What were the long-term effects of [p1] on [p2]?|180|2|4|B|Economic instability; Cultural unification; Religious fragmentation; Territorial collapse|Fall of the Roman Empire|Western Europe|||||||
+36|What were the long-term effects of [p1] on [p2]?|181|2|4|C|New trade routes; Feudal wars; Isolation; Economic stagnation|Age of Exploration|Europe|||||||
+36|What were the long-term effects of [p1] on [p2]?|182|2|4|D|Growth of capitalism; Return to serfdom; Religious theocracy; Cultural regression|Renaissance|Europe|||||||
+36|What were the long-term effects of [p1] on [p2]?|183|2|4|A|Demographic shifts; Economic growth; Cultural unification; Political stability|Black Death|Europe|||||||
+36|What were the long-term effects of [p1] on [p2]?|184|2|4|B|Political fragmentation; Economic stability; Religious unity; Feudal expansion|Thirty Years' War|Central Europe|||||||
+36|What were the long-term effects of [p1] on [p2]?|185|2|4|C|Rise of democracy; Loss of freedom; Return to empire; Decline in education|Glorious Revolution|England|||||||
