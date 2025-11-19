@@ -7,3 +7,7 @@
 "history_qa_llm_inferencing.py": Python inferencing code for history MCQ answering
 
 How to export Excel sheet to CSV with custom deliminator (such as "|"): https://stackoverflow.com/a/47155279
+
+LLM models supported by Ollama: https://ollama.com/library
+
+Ollama LLM model name is formatted as "Model Name:Model Size". For example, correct name for Qwen3 30-billion model is "qwen3:30b"
