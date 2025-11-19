@@ -66,7 +66,7 @@ python
 >>> print(response.message.content)
 >>> quit()
 
-# You can also use Ollama Client for inferencing
+# You can also use Ollama Client object for inferencing
 
 # Start Python interpreter
 python
@@ -82,5 +82,6 @@ python
 >>> quit()
 
 exit
+
 
 
