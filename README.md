@@ -10,4 +10,4 @@ How to export Excel sheet to CSV with custom deliminator (such as "|"): https://
 
 LLM models supported by Ollama: https://ollama.com/library
 
-Ollama LLM model name is formatted as **model name:model size**. For example, the correct name for Qwen3 model with 30-billion parameters is **qwen3:30b**
+Ollama LLM model name follows the pattern of **model_name:model_size**. For example, the correct name for Qwen3 model with 30-billion parameters is **qwen3:30b**
