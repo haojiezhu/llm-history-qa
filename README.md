@@ -1,8 +1,8 @@
-"CS_6001_P2_Questions_For_Export.xlsx": Excel sheet ready for export as CSV file
+"CS_6001_P2_Questions_For_Export.xlsx": Excel sheet ready for exporting as a CSV file
 
-"history_qa_csv.csv": Exported CSV file for model inferencing. It uses "|" (pipe symbol) as field separator
+"history_qa_csv.csv": Exported CSV file for model inferencing. It uses "|" (pipe symbol) as column separator
 
-"Ollama Setup.txt": How to setuo Ollama on Mill cluster
+"Ollama Setup.txt": How to setup Ollama on Mill cluster
 
 "history_qa_llm_inferencing.py": Python inferencing code for history MCQ answering
 
