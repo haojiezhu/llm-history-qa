@@ -8,9 +8,10 @@ tar -C ollama -xzvf ollama-linux-amd64.tgz
 srun -p gpu --gres=gpu:H100 -N 1 -n 4 --mem=80G --time=3:00:00 --pty bash
 
 # Use /local/scratch on GPU node (https://docs.itrss.umsystem.edu/pub/hpc/mill)
-# so you can download checkpoints for large LLM models without running out of space on Mill
-# You can skip this part if you only intend to use small LLM models
+# to download checkpoints for large LLM models so you won't run out of space on Mill.
+# You can skip this step if you only intend to use small LLM models.
 # Important: please replace "hzfy6" with your own user name on Mill
+
 mkdir -p /local/scratch/hzfy6/.ollama
 ln -s /local/scratch/hzfy6/.ollama ~/.ollama
 
@@ -82,6 +83,7 @@ python
 >>> quit()
 
 exit
+
 
 
 
