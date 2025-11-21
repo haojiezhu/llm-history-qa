@@ -10,6 +10,8 @@ tar -C ollama -xzvf ollama-linux-amd64.tgz
 # Request 1 H100 GPU from Mill cluster (you can request for up to 48 hours)
 srun -p gpu --gres=gpu:H100 -N 1 -n 4 --mem=80G --time=3:00:00 --pty bash
 
+squeue --me
+
 # Use /local/scratch on GPU node (https://docs.itrss.umsystem.edu/pub/hpc/mill)
 # to download checkpoints for large LLM models so you won't run out of space on Mill.
 # You can skip this step if you only intend to use small LLM models.
@@ -86,4 +88,5 @@ python
 >>> quit()
 
 exit
+
 
