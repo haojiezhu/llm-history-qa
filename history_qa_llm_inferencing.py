@@ -1,6 +1,10 @@
 import os, random
 from ollama import Client
 
+# Use custom TCP/IP port (port 11435 in this example) for Ollama server
+#os.system("OLLAMA_HOST=127.0.0.1:11435 ./ollama/bin/ollama pull gpt-oss:20b")
+#client = Client(host="127.0.0.1:11435")
+
 os.system("./ollama/bin/ollama pull gpt-oss:20b")
 client = Client()
 
@@ -60,22 +64,22 @@ with open(file_path, 'r') as file:
 				llm_qa_question = "N/A"
 			#print(llm_qa_question)
 			if llm_qa_question != "N/A":
-				qa_dataset.append(llm_qa_question);
+				qa_dataset.append(llm_qa_question)
 
 list_results = []
 
 for qa_row in qa_dataset:
 	qa_question = qa_row.strip().split("|")
-	resp_fast = client.chat(model="gpt-oss:20b", messages=[{"role": "user", "content": qa_question[1]}], think="low")
-	list_results.append({"question_id": qa_question[0], "question_text": qa_question[1], "ground_truth": qa_question[2], "model_inference": resp_fast["message"]["content"]})
+	resp_fast = client.chat(model="gpt-oss:20b", messages=[{"role": "user", "content": qa_question[1].strip()}], think="low")
+	list_results.append({"question_id": qa_question[0].strip(), "question_text": qa_question[1].strip(), "ground_truth": qa_question[2].strip(), "model_inference": resp_fast["message"]["content"]})
 
-print("question_id" + "	| " + "question_text")
+print("question_id\t" + "question_text")
 for result in list_results:
 	print("-------------------------------")
-	print(result["question_id"] + "		| " + result["question_text"])
+	print(result["question_id"] + "\t" + result["question_text"])
 
 print()
 
-print("question_id" + "	| " + "ground_truth" + "	| " + "model_inference")
+print("question_id\t" + "ground_truth\t" + "model_inference")
 for result in list_results:
-	print(result["question_id"] + "		| " + result["ground_truth"] + "		| " + result["model_inference"])
+	print(result["question_id"] + "\t" + result["ground_truth"] + "\t" + result["model_inference"])
