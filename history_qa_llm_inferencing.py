@@ -9,7 +9,6 @@ llm_name = "gpt_oss_20b"
 #os.system("./ollama/bin/ollama pull gpt-oss:20b")
 #client = Client()
 
-
 # Use custom TCP/IP port (port 11435 in this example) for Ollama server
 os.system("OLLAMA_HOST=127.0.0.1:11435 ./ollama/bin/ollama pull gpt-oss:20b")
 client = Client(host="127.0.0.1:11435")
@@ -144,3 +143,4 @@ for result in list_results:
 excel_file_path = "./results_" + llm_name + ".xlsx"
 wb.save(excel_file_path)
 print("Data written to '{0}' successfully.".format(excel_file_path))
+
