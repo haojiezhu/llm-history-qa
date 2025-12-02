@@ -1,6 +1,9 @@
 # Check Mill account free space
 du -h . -d 1
 
+# Check Mill usage (H100 GPU is on gpu-42-00 node)
+squeue
+
 cd ~
 curl -L https://ollama.com/download/ollama-linux-amd64.tgz -o ollama-linux-amd64.tgz
 
@@ -21,10 +24,10 @@ mkdir -p /local/scratch/hzfy6/.ollama
 ln -s /local/scratch/hzfy6/.ollama ~/.ollama
 
 # Start Ollama server in background (you may need to press ENTER to see Linux command prompt again) 
-./ollama/bin/ollama serve &
+OLLAMA_HOST=127.0.0.1:11435 ./ollama/bin/ollama serve &
 
 # Check Ollama server status and version
-./ollama/bin/ollama --version
+OLLAMA_HOST=127.0.0.1:11435 ./ollama/bin/ollama --version
 
 # Create a conda virtual environment for using Ollama with Python
 
@@ -42,44 +45,30 @@ conda activate ollama
 pip install ollama
 
 # Download pre-trained weights of Google Gemma3
-./ollama/bin/ollama pull gemma3
+OLLAMA_HOST=127.0.0.1:11435 ./ollama/bin/ollama pull gemma3
 
 # Running LLM with interactive prompting, use /bye to quit
-./ollama/bin/ollama run gemma3
+OLLAMA_HOST=127.0.0.1:11435 ./ollama/bin/ollama run gemma3
 
 # Download pre-trained weights of gpt-oss (20b)
-./ollama/bin/ollama pull  gpt-oss:20b
+OLLAMA_HOST=127.0.0.1:11435 ./ollama/bin/ollama pull  gpt-oss:20b
 
 # Running LLM with interactive prompting, use /bye to quit
-./ollama/bin/ollama run gpt-oss:20b
+OLLAMA_HOST=127.0.0.1:11435 ./ollama/bin/ollama run gpt-oss:20b
 
 # Start Python interpreter
 python
 
 # The following list are Python code (NOT Linux commands, also do not type in ">>> ")
->>> from ollama import chat
->>> from ollama import ChatResponse
->>> 
->>> response: ChatResponse = chat(model='gemma3', messages=[
->>>   {
->>>     'role': 'user',
->>>     'content': 'Why is the sky blue?',
->>>   },
->>> ])
->>> 
->>> print(response['message']['content'])
->>> # or access fields directly from the response object
->>> print(response.message.content)
->>> quit()
 
-# You can also use Ollama Client object for inferencing
+# You can use Ollama Client object for inferencing
 
 # Start Python interpreter
 python
 
 >>> from ollama import Client
 >>> 
->>> client = Client()
+>>> client = Client(host='127.0.0.1:11435')
 >>> question = "You are an expert on historical events. Please select the best choice for the following multiple choice question. Don\'t show any reasoning process. Just give me the letter of your best choice.\nWhich event is commonly seen as the start of World War I?\nA. The sinking of the Lusitania\nB. The invasion of Poland\nC. The assassination of Archduke Franz Ferdinand\nD. The Zimmerman Telegram"
 >>> 
 >>> resp_fast = client.chat(model="gpt-oss:20b", messages=[{"role": "user", "content": question}], think="low")
@@ -88,5 +77,3 @@ python
 >>> quit()
 
 exit
-
-
